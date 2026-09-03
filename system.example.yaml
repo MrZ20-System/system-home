@@ -24,6 +24,11 @@ knowledge:
   path: ./knowledge
   inbox: inbox
   historyLimit: 10
+  checkpoint:
+    autoCommit: true
+    autoPush: true
+    remote: origin
+    branch: main
 
 runtime:
   statePath: ./.loong
