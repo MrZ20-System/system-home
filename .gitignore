@@ -1,0 +1,15 @@
+# local container state
+.loong/
+.worktrees/
+.pnpm-store/
+.workbuddy/
+.DS_Store
+
+# nested independent git repositories (each pushed to its own GitHub repo)
+loong-dashboard/
+knowledge/
+vllm/
+vllm-ascend/
+
+# machine-specific config; sanitized template committed as system.example.yaml
+system.yaml
