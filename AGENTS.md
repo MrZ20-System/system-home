@@ -19,3 +19,6 @@
 - Do not copy architecture or implementation from the rejected legacy dashboard.
 - DeepSeek Harness remains an external runtime; do not fork it or add a LoongBoard DSH plugin.
 
+## Documentation entry point
+
+Read `loong-dashboard/docs/README.md` for the current architecture and implementation handbook. Application changes also follow `loong-dashboard/AGENTS.md` and the nearest package instructions.

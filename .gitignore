@@ -8,8 +8,12 @@
 # nested independent git repositories (each pushed to its own GitHub repo)
 loong-dashboard/
 knowledge/
+agent-history/
 vllm/
 vllm-ascend/
 
-# machine-specific config; sanitized template committed as system.example.yaml
+# machine-specific configuration and durable deployment data
 system.yaml
+settings.json
+domains/
+prompts/
