@@ -14,6 +14,7 @@ vllm-ascend/
 
 # machine-specific configuration and durable deployment data
 system.yaml
+system.yaml*.bak
 settings.json
 domains/
 prompts/
